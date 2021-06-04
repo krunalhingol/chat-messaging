@@ -1,0 +1,17 @@
+{
+  "apiPath": "/api",
+  "chatUri": "/chat",
+  "v1": "/v1",
+  "chatServer": {
+    "port": "3334",
+    "logging": {
+      "logDir": "logs",
+      "logFileName": "chatServer",
+      "logLevel": "silly",
+      "transports": [
+        "File",
+        "Console"
+      ]
+    }
+  }
+}
